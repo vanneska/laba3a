@@ -19,7 +19,7 @@ int (*functions[])(Set&, Set&, Set&) = { nullptr, dialogSumm, dialogSummChar, di
 
 int main() {
     try {
-        Set S1("amigo"), S2(" lab_BIG"), S3;
+        Set S1("helLo"), S2(" big_BIG"), S3;
         int rc;
         while ((rc = dialog(msgs, NMsgs))) {
             if (!functions[rc](S1, S2, S3))
