@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "set.h"
-
+//Все отлично
 namespace prog3v {
 
 	Set::Set() : size(0), arr(nullptr) {
